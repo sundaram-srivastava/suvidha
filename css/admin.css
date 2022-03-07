@@ -1,0 +1,105 @@
+.mainbody {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: red;
+}
+
+nav img {
+    height: 80px;
+    width: 80px;
+    background-size: cover;
+}
+
+.nav {
+    font-size: 1.2rem;
+    margin: 12px;
+    font-weight: bold;
+}
+
+nav {
+    background-color: black;
+}
+
+nav a {
+    color: white;
+}
+
+.navbar-nav a {
+    color: white;
+    text-transform: capitalize;
+}
+
+.navbar-nav a:hover {
+    color: aquamarine;
+    text-decoration: none;
+}
+
+.navbar-nav {
+    position: absolute;
+    right: 80px;
+}
+
+.midhead {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.middle {
+    display: flex;
+    position: absolute;
+    top: 200px;
+    width: 100%;
+}
+
+.midhead {
+    margin-left: 50px;
+}
+
+#piechart {
+    margin-left: 100px;
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    border: 2px solid #4597ce;
+    border-radius: 50px;
+    background: transparent;
+}
+
+.button:hover {
+    background: #4597ce;
+    color: white;
+}
+
+.click {
+    position: relative;
+    top: 150px;
+}
+
+.lowerdiv {
+    display: flex;
+    position: absolute;
+    top: 700px;
+    left: 100px;
+    column-gap: 620px;
+}
+
+.select {
+    position: relative;
+    top: 30px;
+}
+
+select {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    align-items: center;
+    background-color: grey;
+    text-align: center;
+    color: white;
+}
+
+select:focus {
+    outline-color: grey;
+}
